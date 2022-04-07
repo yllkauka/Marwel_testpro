@@ -1,0 +1,21 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  color: aliceblue;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: fantasy;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:hsla(357,87%,50%,1);
+  background-image:
+  radial-gradient(at 94% 69%, hsla(306,100%,63%,1) 0px, transparent 50%),
+  radial-gradient(at 85% 97%, hsla(0,78%,34%,1) 0px, transparent 50%),
+  radial-gradient(at 81% 64%, hsla(124,78%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 28% 18%, hsla(348,64%,69%,1) 0px, transparent 50%),
+  radial-gradient(at 41% 17%, hsla(329,96%,64%,1) 0px, transparent 50%);
+}

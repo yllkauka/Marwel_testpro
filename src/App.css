@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.btn-start{
+  border-radius: 10px;
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 25px;
+  border: solid 2px whitesmoke;
+  width: 200px;
+  height: 50px;
+  transition: all 0.3s ease 0s;
+}
+.btn-start:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.3) !important;
+}
+
+
+/* Question-1 CSS */
+.input-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.input-card{
+  border: solid 1px aliceblue;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+
+.input-ques-1{
+  color: aliceblue;
+  width: 400px;
+  height: 55px;
+  font-size: 25px;
+  background-color: transparent;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgb(205, 201, 201)
+}
+.input-ques-1:focus{
+  border-color: rgb(255, 255, 255)
+}
+.input-ques-1::placeholder{
+  color: aliceblue;
+  opacity: 0.9;
+}
+
+
+/* Result CSS */
+.marwel-card{
+  background-color: rgba(0, 0, 0, 0.3)
+}
+.card-img-top{
+  
+}
+
+.result-body{
+  background-color:hsla(357,87%,50%,1);
+  background-image:
+  radial-gradient(at 94% 69%, hsla(306,100%,63%,1) 0px, transparent 50%),
+  radial-gradient(at 85% 97%, hsla(0,78%,34%,1) 0px, transparent 50%),
+  radial-gradient(at 81% 64%, hsla(124,78%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 28% 18%, hsla(348,64%,69%,1) 0px, transparent 50%),
+  radial-gradient(at 41% 17%, hsla(329,96%,64%,1) 0px, transparent 50%);
+}
+.marwel-card {
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+.marwel-card:hover {
+  transform: translateY(-7px);
+  
+}
